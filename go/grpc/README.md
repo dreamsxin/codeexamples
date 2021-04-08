@@ -44,3 +44,9 @@ type TpuserClient interface {
 	Post(ctx context.Context, in *TpuserRequest, opts ...grpc.CallOption) (*TpuserResponse, error)
 }
 ```
+
+## 测试
+
+```shell
+go test -count=1 -v test/main_test.go -run TestGet
+```
