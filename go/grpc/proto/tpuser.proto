@@ -1,0 +1,20 @@
+syntax = "proto3";
+option go_package = "./;proto";
+
+service Tpuser {
+	rpc get (TpuserRequest) returns (TpuserResponse) {
+	}
+
+	rpc post (TpuserRequest) returns (TpuserResponse) {
+	}
+}
+
+message TpuserRequest {
+    int64 uid = 1;
+    string unionid = 2;
+}
+
+message TpuserResponse {
+    int64 uid = 1;
+    string unionid = 2;
+}
