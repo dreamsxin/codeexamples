@@ -3,9 +3,11 @@
 ```shell
 git clone https://github.com/golang/protobuf.git $GOPATH/src/github.com/golang/protobuf
 # 安装protoc 
-go install github.com/golang/protobuf/proto
+#go install github.com/golang/protobuf/proto
+go install google.golang.org/protobuf/proto
 #安装插件
-go install github.com/golang/protobuf/protoc-gen-go
+#go install github.com/golang/protobuf/protoc-gen-go
+go install google.golang.org/protobuf/protoc-gen-go
 protoc --go_out=. *.proto //如果不加grpc就没有rpc代码实现
 protoc --go_out=plugins=grpc:. *.proto //如果不加grpc就没有rpc代码实现
 
