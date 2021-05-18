@@ -70,3 +70,11 @@ https://github.com/stretchr/testify
 https://github.com/prometheus/client_golang
 
 https://github.com/opentracing/opentracing-go
+
+https://github.com/dgraph-io/badger (Fast key-value DB in Go.)
+
+https://github.com/valinurovam/garagemq
+
+https://github.com/alash3al/redix
+
+https://github.com/codenotary/immudb
