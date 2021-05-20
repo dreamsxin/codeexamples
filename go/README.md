@@ -75,7 +75,11 @@ https://github.com/dgraph-io/badger (Fast key-value DB in Go.)
 
 https://github.com/valinurovam/garagemq
 
+https://github.com/streadway/amqp
+
 https://github.com/alash3al/redix
+
+https://github.com/nsqio/nsq
 
 https://github.com/codenotary/immudb
 
