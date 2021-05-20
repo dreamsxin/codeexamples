@@ -78,3 +78,17 @@ https://github.com/valinurovam/garagemq
 https://github.com/alash3al/redix
 
 https://github.com/codenotary/immudb
+
+https://github.com/tidwall/evio
+
+https://github.com/looplab/eventhorizon
+
+https://github.com/influxdata/influxdb
+
+https://github.com/nuclio/nuclio
+
+https://github.com/fsnotify/fsnotify
+
+https://github.com/syncthing/syncthing
+
+
