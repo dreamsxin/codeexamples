@@ -96,3 +96,7 @@ https://github.com/fsnotify/fsnotify
 https://github.com/syncthing/syncthing
 
 https://github.com/mna/httpmw
+
+https://github.com/go-kratos/kratos
+
+https://github.com/confetti-framework/confetti
