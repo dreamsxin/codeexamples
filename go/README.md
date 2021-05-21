@@ -100,3 +100,7 @@ https://github.com/mna/httpmw
 https://github.com/go-kratos/kratos
 
 https://github.com/confetti-framework/confetti
+
+https://github.com/asim/go-micro
+
+https://github.com/ent/ent
