@@ -104,3 +104,9 @@ https://github.com/confetti-framework/confetti
 https://github.com/asim/go-micro
 
 https://github.com/ent/ent
+
+https://github.com/AlexStocks/getty
+
+https://github.com/go-netty/go-netty
+
+https://github.com/go-netty/go-netty-transport
