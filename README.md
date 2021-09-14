@@ -3,6 +3,7 @@
 - https://github.com/andlabs/ui
 - https://github.com/lxn/walk
 - https://github.com/ying32/govcl
+- https://github.com/tkrajina/go-reflector
 - https://github.com/dreamsxin/GoGUI
 - https://github.com/dreamsxin/as3chat
 - https://github.com/dreamsxin/yaya
