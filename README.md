@@ -18,6 +18,7 @@
 - https://github.com/dreamsxin/as3chat
 - https://github.com/dreamsxin/yaya
 - https://github.com/xo/xo
+- https://github.com/rqlite/rqlite
 
 ```shell
 git config --global core.autocrlf false
