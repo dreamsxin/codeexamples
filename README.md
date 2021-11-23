@@ -17,6 +17,7 @@
 - https://github.com/dreamsxin/GoGUI
 - https://github.com/dreamsxin/as3chat
 - https://github.com/dreamsxin/yaya
+- https://github.com/xo/xo
 
 ```shell
 git config --global core.autocrlf false
