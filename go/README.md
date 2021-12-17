@@ -118,3 +118,7 @@ github.com/shirou/gopsutil
 "net/http/pprof"
 
 https://github.com/segmentio/stats
+
+https://github.com/fogleman/gg
+
+https://github.com/dchest/captcha
