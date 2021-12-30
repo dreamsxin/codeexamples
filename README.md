@@ -19,6 +19,8 @@
 - https://github.com/dreamsxin/yaya
 - https://github.com/xo/xo
 - https://github.com/rqlite/rqlite
+- https://github.com/desertbit/grumble
+- https://github.com/c-bata/go-prompt
 
 ```shell
 git config --global core.autocrlf false
