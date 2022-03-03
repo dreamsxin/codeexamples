@@ -24,6 +24,18 @@
 - https://github.com/go-git/go-git
 - https://github.com/sensu/sensu-go
 
+# io
+- https://github.com/lesismal/nbio
+
+# db
+- https://github.com/lindb/lindb
+- https://github.com/cockroachdb/pebble
+- https://github.com/cockroachdb/cockroach
+- https://github.com/codenotary/immudb 不可变数据库
+
+# log
+- https://github.com/nikandfor/tlog
+
 ```shell
 git config --global core.autocrlf false
 git config --global core.quotepath false
