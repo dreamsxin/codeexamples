@@ -23,6 +23,7 @@
 - https://github.com/c-bata/go-prompt
 - https://github.com/go-git/go-git
 - https://github.com/sensu/sensu-go
+- https://github.com/ent/ent
 
 # io
 - https://github.com/lesismal/nbio
