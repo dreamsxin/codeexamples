@@ -48,3 +48,7 @@ git config --global core.filemode false filemode true
 set GOGCTRACE=1
 set GODEBUG=gctrace=1
 ```
+# debug
+
+- https://github.com/go-delve/delve
+- https://github.com/iovisor/gobpf
