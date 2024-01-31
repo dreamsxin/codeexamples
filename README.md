@@ -24,6 +24,11 @@
 - https://github.com/go-git/go-git
 - https://github.com/sensu/sensu-go
 - https://github.com/ent/ent
+- https://github.com/elazarl/goproxy
+- https://github.com/v2ray/v2ray-core
+- https://github.com/v2fly/v2ray-core
+- https://github.com/ehang-io/nps
+- https://github.com/XTLS/Xray-core
 
 # io
 - https://github.com/lesismal/nbio
