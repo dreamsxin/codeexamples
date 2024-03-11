@@ -1,0 +1,17 @@
+server:
+  mode: dev         # 应用程序运行模式（dev开发环境、test测试环境、prod线上环境）
+  host: 127.0.0.1     # 服务器IP地址，默认使用0.0.0.0
+  name: yunlogin/news      # 服务名称
+  port: 8080       # 服务端口号
+  fs-type: local    #文件服务
+  remote-enable: true #是否开启远程配置
+logger:             # 日志配置
+  level: debug # 级别
+  prefix:    # 日志前缀
+  format:  json # 输出格式 json
+  director: temp/log      # 日志文件夹
+  encode-level: LowercaseColorLevelEncoder # 编码级
+  stacktrace-key: # 栈名
+  #max-age: 7                         # 日志留存时间 默认7天
+  show-line: true # 显示行
+  log-in-console: true # 输出控制台
