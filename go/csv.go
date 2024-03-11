@@ -5,8 +5,8 @@ import (
 	"log"
 	"os"
 
-	"strings"
 	"fmt"
+	"strings"
 )
 
 func join(fileName1 string, fileName2 string) (row []string) {
@@ -29,7 +29,7 @@ func join(fileName1 string, fileName2 string) (row []string) {
 		for _, row2 := range content2[1:] {
 			if row1[0] == row2[0] {
 				row[j] = strings.Join(content1[i], ",")
-				j++;
+				j++
 			}
 		}
 	}
@@ -47,7 +47,7 @@ func save(filename string, row []string) {
 	f.WriteString("\xEF\xBB\xBF")
 	//w := csv.NewWriter(f)
 	for _, str := range row {
-		f.WriteString(str+"\n")
+		f.WriteString(str + "\n")
 	}
 	//f.Flush()
 }
