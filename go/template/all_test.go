@@ -70,3 +70,30 @@ func TestBlock(t *testing.T) {
 	}
 
 }
+
+//go:embed  all:html
+var TemplateFs embed.FS
+func TestFS() {
+        t := template.Must(template.New("pagination.html").Parse(tmpl)) // name 必须和文件名一致，不然匹配不到
+	list, err := fs.Glob(templateFs, tmplpath)
+	if err != nil {
+		log.Println("------------path---------------", tmplpath, err)
+	} else {
+		log.Println("------------path list---------------", tmplpath, list)
+		file := list[0]
+		b, err := fs.ReadFile(resources.TemplateFs, file)
+
+		if err != nil {
+			log.Println("------------path read---------------", tmplpath, err)
+		} else {
+			log.Println("------------path read---------------", tmplpath, string(b))
+
+			tt, err := template.New("pagination").Parse(string(b))
+			if err != nil {
+				log.Println("------------path Parse---------------", tmplpath, err)
+			} else {
+				log.Println("------------path Tree---------------", tmplpath, tt.Tree)
+			}
+		}
+	}
+}
