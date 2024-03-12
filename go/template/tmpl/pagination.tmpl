@@ -1,0 +1,39 @@
+{{ if .HasPages }}
+<ul class="pagination">
+  {{ if le .CurrentPage 1 }}
+  <li class="page-li page-prev no-prev"></li>
+  {{else}}
+  <a href="{{ .getUrl .GetPrevious }}"
+    ><li class="page-li page-prev no-prev">&nbsp;&nbsp;</li></a
+  >
+  {{end}} {{ range .FirstPart }}
+  <a href="{{ $.GetUrl . }}"
+    ><li class="page-li page-number {{if $.IsActive .}}page-active{{end}}">
+      {{ . }}
+    </li></a
+  >
+  {{ end }} {{ if len .MiddlePart }}
+  <li class="page-li number-ellipsis ellipsis-tail">...</li>
+  {{ range .MiddlePart }}
+  <a href="{{ $.GetUrl . }}"
+    ><li class="page-li page-number {{if $.IsActive .}}page-active{{end}}">
+      {{ . }}
+    </li></a
+  >
+  {{ end }} {{ end }} {{ if len .LastPart }}
+  <li class="page-li number-ellipsis ellipsis-tail">...</li>
+  {{ range .LastPart }}
+  <a href="{{ $.GetUrl . }}"
+    ><li class="page-li page-number {{if $.IsActive .}}page-active{{end}}">
+      {{ . }}
+    </li></a
+  >
+  {{ end }} {{ end }} {{ if ge .CurrentPage .TotalPage }}
+  <li class="page-li page-next no-next"></li>
+  {{else}}
+  <a href="{{ .GetUrl .GetNext }}"
+    ><li class="page-li page-next">&nbsp;&nbsp;</li></a
+  >
+  {{end}}
+</ul>
+{{end}}
